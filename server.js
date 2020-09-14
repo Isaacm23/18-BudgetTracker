@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://budget:budget1@cluster0.8dlel.mongodb.net/budget?retryWrites=true&w=majority", {
+mongoose.connect(process.env.MONGODB_URI || "https://budgettracck.herokuapp.com/", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
