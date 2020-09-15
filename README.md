@@ -10,4 +10,4 @@ Offline Functionality:
 
 When brought back online:
 
-  * Offline entries should be added to tracker.
+  * Offline entries should be added to tracker.![](public/img/budget.gif)
